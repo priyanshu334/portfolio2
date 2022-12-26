@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion';
 type Props = {}
+import Image from 'next/image';
 
 const ExperienceCard = (props: Props) => {
   return (
@@ -28,15 +29,16 @@ const ExperienceCard = (props: Props) => {
         <h4 className='text-4xl font-light '>CEO of PAPAFAM</h4>
         <p className='font-bold text-2xl mt-1'> PAPAFAM</p>
         <div className='flex space-x-2 my-2'>
-          <img 
+          <Image
+      
           className='h-10 w-10 rounded-full'
           src="https://www.citypng.com/public/uploads/preview/js-javascript-round-logo-icon-png-11662226392lsrrajcm0y.png" alt="" />
 
-             <img 
+             <Image
           className='h-10 w-10 rounded-full'
           src="https://www.citypng.com/public/uploads/preview/js-javascript-round-logo-icon-png-11662226392lsrrajcm0y.png" alt="" />
 
-             <img 
+             <Image
           className='h-10 w-10 rounded-full'
           src="https://www.citypng.com/public/uploads/preview/js-javascript-round-logo-icon-png-11662226392lsrrajcm0y.png" alt="" />
         </div>

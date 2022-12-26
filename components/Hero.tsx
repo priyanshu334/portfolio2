@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import {Cursor , useTypewriter} from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
-
+import Image from 'next/image';
 type Props = {}
 
 const Hero = (props: Props) => {
@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
 
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden' >
         <BackgroundCircles/>
-        <img className='relative rounded-full h-48 w-52 mx-auto object-cover' src='https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1670987023837%2FNmI2YBFN2.png%3Fw%3D500%26h%3D500%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1080&q=75'/>
+        <Image className='relative rounded-full h-48 w-52 mx-auto object-cover' src='https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1670987023837%2FNmI2YBFN2.png%3Fw%3D500%26h%3D500%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1080&q=75' alt="img"/>
         <div className='z-20'>
             <h2 className='text-sm text-gray-500 pb-2 tracking-[12px]'>Software Engennier </h2>
                <h1 className='text-5xl lg:text-6xl scroll-px-10'>
